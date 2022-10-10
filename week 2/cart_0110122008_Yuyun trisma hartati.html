@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.isi{width: 80%;
+    border-style:ridge;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    margin: 0;
+    padding:10px 30px;
+    border-bottom: 1px solid rgb(15, 13, 13);
+    background-color: rgb(157, 199, 199);
+}
+li{
+    list-style: none;
+}
+.kanan {
+    margin-left: auto;
+    margin-top: 0;
+    padding:0 10px;
+}
+a {
+    text-decoration: none;
+}
+.site {
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    color:black;
+    margin: 10px;
+}
+.link{
+    display: flex;
+    font-size: medium;
+    font-weight: bold   ;
+}
+
+.row {
+    display: flex;
+    margin-top: 30px;
+}
+.column-summary {
+   margin-bottom:50px;
+    border-style: ridge;
+    background-color: rgb(212, 212, 212);
+    width: 30%;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.summary{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+   
+}
+.teks-kanan {
+ text-align: end;
+}
+.teks-tengah{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th
+td{
+    text-align: left;
+    padding:8px;
+}
+th{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.Tumbler{
+    margin-left: 10px;
+    display:flex;
+    align-items:center;
+}
+.Tumbler img {
+    padding: 10px 15px 10px 0;
+}
+.price{
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.total {
+    text-align: end;
+    border-top: 1px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+}
+select{
+    width: 60px;
+    outline: 0;
+    border:1px solid #000;
+    padding: 4px ;
+    border-radius: 0;
+}
+.button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+
+}
+footer{
+    border-top: 1px solid rgb(15, 13, 13);
+    margin-top: 300px;
+}.linkfooter{
+    font-size: medium;
+    font-weight: bold   ;
+    display:flex;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding: 0px 5px;
+    padding-top: 1px;
+    
+}
+.linkfooter2{
+    display:flex;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding: 0px 5px;
+    padding-top: 1px;
+}
+.colorfootercategory{
+    font-size: small;
+    color: blue;
+    padding: 0px 5px;
+}
+form {
+    display:flex;
+    flex-direction:row;
+    margin: 0;
+    border:1px solid black;
+    padding:2px;
+  }
+  
+  input{
+    flex-grow:2;
+    border:none;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  button {
+  border:none
+  }
+  .button{
+    width: 100%;
+    background-color: deepskyblue;
+    border: 1px solid black;
+  }
+  .buttonfooter{
+    width: min-content;
+    background-color: dimgrey;
+  }
+  .imagefooter{
+    display:flex;
+    align-items: center;
+    margin: 0;
+    padding:0px 5px;
+    background-color:#D2B48C;
+  }
+    </style>
+<body>
+    <div class="isi">
+        
+        
+                <ul class="navbar">
+                    <li class="fa fa-square">
+                        
+                    </li>
+                    <li>
+                        <h1><a href="cart.html"class="site">Shopoo</a></h1>
+                    </li>
+                    <li><a href=""class="link">Category 1</a></li>
+                    <span>&nbsp;|&nbsp;</span>
+                    <li><a href=""class="link">Category 2</a></li>
+                    <span>&nbsp;|&nbsp;</span>
+                    <li><a href=""class="link">Category 3</a></li>
+                    <li class="kanan">
+                        <a href=""><span style="font-size: 20px">&#128269</span></a>
+                        <a href="" style="color:#000"><span style="font-size: 20px">&#128722</span>cart (5)</a>
+                        </li>
+                </ul>
+        <main>
+            <div class="row">
+                <div class="column">
+                    <h2 style="margin-left: 10px">Your Cart</h2>
+                    <table style="margin-left: 10px;">
+                        <tr>
+                          <th width="60">Item</th>
+                          <th width="420">Price</th>
+                          <th width="70">Quantity</th>
+                        </tr>  
+                        <tr>
+                            <td class="Tumbler"><img src="tumbler.jpeg" alt=""width="100"/>Tumbler<br/>Size:M</td>
+                            <th>
+                                <span class="price">$14.00</span>
+                            </div>
+                            </th>
+                            <th>
+                                <div>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="total" colspan="3">Subtotal: <b>$14.00</b></th>
+                        </tr>
+                        </table>
+                    </div>
+                    <div class="column-summary">
+                        <h4 style="margin-left: 5px">Summary (1 item)</h4>
+                        <div class="summary">
+                            <table>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td class="teks-kanan">$14.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Shipping</td>
+                                    <td class="teks-kanan">-</td>
+                                </tr>
+                                <tr>
+                                    <td>Est. Taxes</td>
+                                    <td class="teks-kanan">-</td>
+                                  </tr>
+                                </table>
+                                <hr color="white" />
+                                <table>
+                                  <tr>
+                                    <td>Total</td>
+                                    <td class="teks-kanan"><b>$14.00</b></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2">
+                                      <button class="button">
+                                        <a href="checkout.html" style="color: white;">Checkout</a></button>
+                                      </td>
+                                    </tr>
+                            </table>
+                    </div>
+                
+        </main>
+        <footer>
+            <small>
+                <ul class="linkfooter">
+                <li>&nbsp; Shopoo &nbsp;&nbsp;</li>
+                <li><a href=""class="colorfootercategory">Category X</a></li>
+                <span>|</span>
+                <li><a href=""class="colorfootercategory">Category Y</a></li>
+                <span>|</span>
+                <li><a href=""class="colorfootercategory">Category Z</a></li>
+                
+                <li class="kanan" style="text-align: right;">
+                    Stay In Touch! Join our Newsletter.
+                    </li>
+                </ul>
+                <ul class="linkfooter2">
+                    <li><img src="icons8-visa-60.png" style="width: 35px"></li>
+                    <li><img src="icons8-mastercard-logo-64.png" style="width: 35px"></li>
+                    <li><img src="icons8-mastercard-credit-card-64.png" style="width: 35px"></li>
+                <li class="kanan">
+                    <form>
+                                
+                                <input value="Enter Email" style="font-weight: bold; color: black; padding: 5px; width: 140px;"/>
+                                <button class="buttonfooter">
+                                    <a href="" style="color: white;">Subscribe</a></button>
+                      </form>
+                    </li>
+                </ul>
+            </small>
+            
+        </footer>
+    </div>
+</body>
