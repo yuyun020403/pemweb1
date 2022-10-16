@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Pizza</title>
+</head>
+<body>
+    <h2>Black Goose Bistro | Pizza -on-Demand</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Perspiciatis velit esse id quidem veniam voluptas maiores, illum ipsa.<br> Aspernatur modi fugit aperiam odio totam facilis sequi nihil iure sed accusantium?</p>
+   <form action="Thankyou">
+    <table>
+        <!-- Buka Thead -->
+        <thead>
+            <tr>
+                <th colspan="0"><h3>Your Information</h3></th>
+            </tr>
+        </thead>
+        <!-- Tutup Thead -->
+        <tbody>
+            <tr>
+                <td><label for="">Name</label></td>
+                <td>: <input type="text" name="Nama"></td>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td>: <input type="text" name="Address"></td>
+            </tr>
+            <tr>
+                <td><label for="">Telephon number</label></td>
+                <td>: <input type="text" name="Telephon number"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td>: <input type="text" name="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="">Delivery Instruction</label></td>
+                <td>: <textarea name="deskripsi" id="" type="text"></textarea></td>
+            </tr>
+        </tbody> 
+        <!-- tutup tbody -->
+    </table>
+    <br>
+    <!-- tutup table -->
+    <!-- buka fielsheld -->
+    <fieldset>
+        <legend><b>Design Your Dream Pizza</b></legend>
+        <h4> Crust (Choose one):</h4>
+        <ul style="list-style: none;">
+            <li>
+                <input type="radio" id="white" name="Crust">
+                <label for="">Classic white</label>
+            </li>
+            <li>
+                <input type="radio" id="white" name="Crust">
+                <label for="">Multi grain</label>
+            </li>
+            <li>
+                <input type="radio" id="white" name="Crust">
+                <label for="">Cheese-Stuffed Crust</label>
+            </li>
+            <li>
+                <input type="radio" id="white" name="Crust">
+                <label for="">Gulten-free</label>
+            </li>
+        </ul>
+        <h4> Topping (Choose as many as you want):</h4>
+        <ul style="list-style: none;">
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Red sauce</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">White sauce</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Mozzarella Chessee</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Pepperoni</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Mushrooms</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Peppers</label>
+            </li>
+            <li>
+                <input type="checkbox" id="white" name="Crust">
+                <label for="">Anchovies</label>
+            </li>
+        </ul>
+
+        <h4>Number</h4>
+        <label for=""> How Many Pizza</label>
+        <input type="number" id="jumlah"><br><br>
+        <input type="submit" name="unproses"  value="batal"/>
+        <input type="reset"  name="proses" value="kirim"/>
+    </fieldset>
+   </form>
+   <!-- tutup form -->
+</body>
+</html>
