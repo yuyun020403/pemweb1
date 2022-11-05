@@ -1,0 +1,32 @@
+.biru{
+    background-color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.coklat{
+    background-color: burlywood;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tulis{
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: x-large;
+}
+.tulis1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tulis2{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.biru{
+    background-color: #55AAFF;
+}
+.biru1{
+    background-color: #bfe6ff;
+}
+.table2 table{
+    border-collapse: collapse;
+    border: 1px solid #55AAFF;
+}
