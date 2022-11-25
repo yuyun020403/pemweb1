@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .container {
+    display: flex;
+  }
+  .nav {
+    background-color: #98A8F8;
+    width: 20vw;
+    height: 100vh;
+  }
+  .aside {
+    background-color: #5DA7DB;
+    width: 20vw;
+  }
+  
+  .article {
+    width: 60vw;
+    height: 60vh;
+  }
+  .header,
+  .footer {
+    height: 20vh;
+    background-color: #BCCEF8;
+  }
+  

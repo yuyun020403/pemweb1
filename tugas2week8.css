@@ -1,0 +1,40 @@
+body {
+    background: #DEF5E5;
+  }
+  h1 {
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 100px;
+  }
+  
+  .header {
+    background-color: #BCEAD5;
+    width: 100%;
+  }
+  .aside {
+    background-color: #9ED5C5;
+    width: 30%;
+    height: 500px;
+  }
+  .article {
+    background-color: #8EC3B0;
+    width: 70%;
+    height: 500px;
+  }
+  
+  .footer {
+    background-color: #6D9886;
+    width: 100%;
+  }
+  

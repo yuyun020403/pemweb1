@@ -1,0 +1,38 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+#main{
+    display: flex;
+    flex: 1; /* menempati ruang kosong di kontainer body */
+}
+#main > article{
+    flex: 1; /*menempati sisa ruang yang ada pada flex container main*/
+    order: 1;
+}
+#main >nav
+#main >aside
+{
+    flex: 0 0 20vw; /*mengatur lebar nav dan aside sebesar 20%* = mengatur lebar*/
+}
+#main > nav{
+    background: lavenderblush;
+    order: 2; 
+}
+#main > aside{
+    background:lavender;
+    order: 3;
+}
+header, footer{
+    background: #DEBACE;
+    height: 20vh; /* vh itu satuan css yang realtif ke layar browser vh = mengatur tinggi layar browser*/
+}
+header, footer, article, nav, aside{
+    padding: 1em;
+}
