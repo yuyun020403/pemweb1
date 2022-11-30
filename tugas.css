@@ -1,0 +1,30 @@
+.header {
+    background: url('../img/kopi1.jpg') center no-repeat ;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+.header .row {
+    height: 500px;
+}
+
+.box-img{
+    height: 250px;
+    width: 200px;
+    margin-top: 4em;
+}
+body{
+    background: black;
+}
+.gambar{
+    background: url('../img/brown4.jpg') center no-repeat ;
+    background-size: cover;
+    height: 450px;
+}
+.kopi{
+    background: url('../img/brown4.jpg') center no-repeat ;
+    background-size: cover;
+    height: 350px;
+}
+
